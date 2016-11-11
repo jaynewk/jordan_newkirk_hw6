@@ -1,0 +1,29 @@
+commit 6dde527ff51d17880d46516accb954bfceb117e5
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Nov 10 20:52:34 2016 -0700
+
+    Final commit of hw6. Added url check.
+
+commit 75588b80a864b0bf602a03e087b5ad4f0ffb77c5
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Thu Nov 10 15:10:19 2016 -0700
+
+     Collaboration with Johnathan Mirable. Added function to count errors. Need to finish help function
+
+commit 145df6dabf2fe70e91ca97eeda33442f74bbe05c
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Wed Nov 9 22:59:53 2016 -0700
+
+    Added README.md (#1)
+
+commit c5d1237eb2e717f63b90b444569aef9ea0839402
+Author: Jordan Newkirk <jordannewkirk23@gmail.com>
+Date:   Wed Nov 9 22:58:45 2016 -0700
+
+    Commit of get_url, working on sort_url
+
+commit a4f2937d050276144c72dd9fcc0523b37f9ff885
+Author: jaynewk <jordannewkirk1@mail.weber.edu>
+Date:   Tue Nov 8 13:19:16 2016 -0700
+
+    Initial commit
