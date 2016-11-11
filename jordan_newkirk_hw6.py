@@ -25,15 +25,7 @@ def get_url():
     Returns:
         List of errors
     """
-    
-    try:
-        url = input()
-    except ValueError:
-        url is None
-
-    if url is None:
-        help()
-
+    url = sys.argv[1]
     resource = urllib.request.urlopen(url)
     global content
     content = resource.read().decode('utf-8')
@@ -65,6 +57,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
-
-    exit(0)
+    # If empty url print help
+    if len(sys.argv) == 1:
+        help()
+        exit(1)
+    else:
+        main()
+        exit(0)
